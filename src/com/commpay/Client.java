@@ -15,11 +15,15 @@ public class Client {
         //使用输出流对象的write（）给服务器发送数据
         os.write("你好服务器".getBytes());
         //使用socket对象的getInputStream（）获取输入流对象
+        readZdy(socket);
+        socket.close();
+
+    }
+
+    static void readZdy(Socket socket) throws IOException {
         InputStream is = socket.getInputStream();
         byte[] bytes = new byte[1024];
         int len = is.read(bytes);
         System.out.println(new String(bytes, 0 ,len));
-        socket.close();
-
     }
 }
