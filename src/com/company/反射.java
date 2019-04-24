@@ -67,9 +67,5 @@ public class 反射 {
 //        3.  对象.getClass（） :  getClass（）方法在Object类中定义的。多用于对象的获取字节码的方式
         Person cls3 = new Person();
         System.out.println(cls3);
-        //Class对象的功能。
-        // 获取成员变量们，Field[] getField
-        // 获取构造方法们，
-        // 获取成员方法们，获取类名
     }
 }

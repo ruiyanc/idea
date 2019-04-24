@@ -18,10 +18,19 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$APPLICATION_HOME_DIR$/com.mysql.jdbc_5.1.5.jar!/" />
+          <root url="jar://$APPLICATION_HOME_DIR$/mysql-connector-java-8.0.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/druid-1.1.10.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
