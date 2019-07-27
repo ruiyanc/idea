@@ -1,4 +1,4 @@
-package com.company;
+package com.algorithms;
 
 public class 顺序查找 {
     public static void main(String[] args) {

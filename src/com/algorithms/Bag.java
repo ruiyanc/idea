@@ -1,4 +1,4 @@
-package com.company;
+package com.algorithms;
 
 import java.util.Iterator;
 import java.util.ListIterator;

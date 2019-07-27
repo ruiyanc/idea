@@ -1,4 +1,4 @@
-package com.company;
+package com.algorithms;
 
 public class Link_List {
     private Node first;

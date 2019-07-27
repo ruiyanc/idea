@@ -1,4 +1,4 @@
-package com.company;
+package com.algorithms;
 
 /**
  * 加权quick-union算法，总是把小树连接到大树上

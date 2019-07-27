@@ -1,4 +1,4 @@
-package com.company;
+package com.algorithms;
 
 import java.util.*;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package com.commpay;
+package com.algorithms;
 
 import java.util.Arrays;
 import java.util.Random;

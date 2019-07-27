@@ -1,4 +1,4 @@
-package com.company;
+package com.algorithms;
 
 public class demo {
     public static void main(String[] args) {

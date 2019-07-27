@@ -1,4 +1,4 @@
-package com.company;
+package com.algorithms;
 
 public class 八皇后问题 {
     /** 8*8棋盘，以及map存方案结果数量*/

@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.Stack;
+package com.algorithms;
 
 public class Graph{
     //顶点数组
