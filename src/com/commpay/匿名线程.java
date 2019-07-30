@@ -6,13 +6,9 @@ public class 匿名线程 {
         new Thread(
             () -> System.out.println(Thread.currentThread().getName())).start();
 
-        new Thread(new Runnable() {
-
-            @Override
-            public void run() {
-                for (int i = 0; i < 10; i++) {
-                    System.out.println(Thread.currentThread().getName() + "-->" + i);
-                }
+        new Thread(() -> {
+            for (int i = 0; i < 10; i++) {
+                System.out.println(Thread.currentThread().getName() + "-->" + i);
             }
         }).start();
     }

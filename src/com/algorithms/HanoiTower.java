@@ -5,7 +5,7 @@ public class HanoiTower {
         doTower(15, 'A', 'B', 'C');
     }
 
-    public static void doTower(int topN, char from, char inter, char to) {
+    private static void doTower(int topN, char from, char inter, char to) {
         if (topN == 1) {
             System.out.println("盘子1，从" + from + "塔座到" + to + "塔座");
         } else {

@@ -18,10 +18,10 @@ public class 函数式接口 {
         //注解 @Override 检查方法是否为重写的方法
         //@FunctionInterface检测接口是否是函数式接口
         System.out.println(getString(() -> "打印Supplier函数式接口"));
-        method("Computer Games", (String name) -> {
-            System.out.println(new String(new StringBuffer(name).reverse().toString()));
-        });
+        method("Computer Games", (String name) ->
+            System.out.println(new StringBuffer(name).reverse().toString())
+        );
         //简化lambda表达式
-        method("任天堂",(name)-> System.out.println(new String(new StringBuffer(name).reverse().toString())));
+        method("任天堂",(name)-> System.out.println(new StringBuffer(name).reverse().toString()));
     }
 }
